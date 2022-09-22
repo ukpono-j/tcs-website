@@ -429,11 +429,13 @@ nav .content .links {
 .hero-btn-dd {
   max-width: 300px;
   padding-left: 10px;
+  font-family: "Brandon";
+  font-size: 19px;
 }
 
 .hero-btn-container {
   display: flex;
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   align-items: center;
 }
 
@@ -477,20 +479,23 @@ nav .content .links {
 }
 
 .hero-txt-1 h3 {
-  font-size: 60px;
+  font-size: 70px;
   /* font-family: "Poppins"; */
   /* font-weight: 300; */
-  font-family: "Canela Deck Bold";
+  /* font-family: "Canela Deck Bold"; */
+  font-family: "Requiem";
+  /* font-family: "Brandon Bold"; */
   /* font-family: "Poppins"; */
 
 }
 
 .hero-txt-1 p {
   /* font-family: "Poppins"; */
-  font-size: 19px;
+  font-size: 23px;
   line-height: 30px;
   padding-top: 10px;
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
+  font-family: "Brandon";
   font-weight: 200;
   /* font-family: "GT America Regular"; */
 }
@@ -541,17 +546,19 @@ position: relative;
 }
 
 .schoolar-txt2 {
-  font-size: 15px;
-  font-family: "Poppins";
+  font-size: 18px;
+  /* font-family: "Poppins"; */
+  font-family: "Brandon";
   max-width: 600px;
   padding: 6px;
   border: 1px solid #000;
 }
 
 .schoolar-txt1 {
-  font-size: 24px;
+  font-size: 30px;
   padding: 6px 10px;
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
+  font-family: "Requiem";
   font-weight: 600;
 }
 
@@ -573,11 +580,15 @@ position: relative;
   justify-content: end;
   padding: 30px;
   color: white;
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
+  /* font-family: "Barndon"; */
+  font-family: "Brandon";
   width: 100%;
 }
 
-.school-overlay-txt {}
+.school-overlay-txt {
+  font-size: 20px;
+}
 
 @media screen and (max-width: 799px) {
   .schoolar-txt {
@@ -717,12 +728,15 @@ position: relative;
   padding-top: 10px;
   line-height: 60px;
   /* font-family: "Roboto"; */
-  font-family: "Canela Deck Bold";
+  /* font-family: "Canela Deck Bold"; */
+  font-family: "Requiem";
 }
 
 .darkky-f {
   padding-top: 17px;
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
+  font-family: "Brandon";
+
 }
 
 .darkky-circle-container {
@@ -751,9 +765,11 @@ position: relative;
 .darkky-title {
   border-bottom: 2px solid #f3f4f4;
   width: 100%;
-  font-family: "Canela Deck Bold";
+  /* font-family: "Canela Deck Bold"; */
+  font-family: "Requiem";
+  font-weight: 800;
   border-radius: 10px;
-  font-size: 47px;
+  font-size: 50px;
   /* transition: 0.5s; */
   padding: 20px 0px;
 }
@@ -784,13 +800,14 @@ position: relative;
 }
 
 .darkky-overlay-txt h1 {
-  font-family: "Canela Deck Bold";
+  /* font-family: "Canela Deck Bold"; */
+  font-family: "Requiem";
   /* font-family: "Poppins"; */
 }
 
 .darkky-overlay-txt p {
-  font-size: 14px;
-  font-family: "Poppins";
+  font-size: 18px;
+  font-family: "Brandon";
   display: none;
   padding-top: 10px;
 }
@@ -820,7 +837,8 @@ position: relative;
 
 .darkky-dart-cirrcle-txt {
   padding-left: 10px;
-  font-family: "Poppins";
+  font-size: 19px;
+  font-family: "Brandon";
 }
 
 @media screen and (max-width: 989px) {
@@ -2011,7 +2029,7 @@ position: relative;
 .flex-col p{
   font-family: "Brandon";
   font-weight: 600;
-  font-size: 18px;
+  font-size: 17px;
   padding-bottom: 10px;
 }
 .flex-col > div input{
@@ -2030,6 +2048,12 @@ position: relative;
   font-family: "Brandon";
   font-size: 18px;
   font-weight: 600;
+}
+.flex-col-1 p{
+  font-family: "Brandon";
+  font-weight: 600;
+  font-size: 17px;
+  padding-bottom: 10px;
 }
 .flex-col-1 input{
   width: 100%;
