@@ -433,22 +433,22 @@ nav .content .links {
 
 .hero-btn-container {
   /* max-width: 300px; */
-  /* border: 1px solid #fff; */
-  height: 70px;
+  border-radius: 30px;
+  padding-right: 10px;
+  border: 1px solid #fff;
+  height: auto;
   margin-top: 20px;
+  display: flex;
+  /* font-family: "Poppins"; */
+  align-items: center;
 }
+
 
 .hero-btn-dd {
   max-width: 300px;
   padding-left: 10px;
   font-family: "Brandon";
   font-size: 19px;
-}
-
-.hero-btn-container {
-  display: flex;
-  /* font-family: "Poppins"; */
-  align-items: center;
 }
 
 .hero-txt-1 {
@@ -527,6 +527,9 @@ nav .content .links {
   .hero-txt-1 p {
     font-size:18px;
     line-height: 24px;
+  }
+  .contents {
+    padding: 30px;
   }
 }
 
