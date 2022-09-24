@@ -10,14 +10,17 @@
   font-family: "Canela Deck Bold";
   src: url(../fonts/Canela\ Deck\ Bold.ttf);
 }
+
 @font-face {
   font-family: "Brandon";
   src: url(../fonts/Brandon-Grotesque-Font-Family/brandon-grotesque-light-58a8a4b38001d.otf);
 }
+
 @font-face {
   font-family: "Brandon bold";
   src: url(../fonts/Brandon-Grotesque-Font-Family/brandon-grotesque-black-58a8a3e824392.otf);
 }
+
 @font-face {
   font-family: "Brandon bl";
   src: url(../fonts/Brandon-Grotesque-Font-Family/brandon-grotesque-bold-italic-58a8a48221563.otf);
@@ -27,6 +30,7 @@
   font-family: "Requiem";
   src: url(../fonts/Requiem\ Display-HTF-\ Roman.otf);
 }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -45,18 +49,20 @@ body {
 }
 
 .socal-icon {
-  height:22px;
+  height: 22px;
   width: 22px;
   border-radius: 100%;
   margin: 6px;
   /* border: 1px solid #fff; */
 
 }
-.socal-icon img{
+
+.socal-icon img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .wrapper {
   /* background: #171c24; */
   background-color: #80298f;
@@ -228,7 +234,8 @@ nav .content .links {
 .content .links ul li a {
   display: block;
   width: 100%;
-  line-height: 30px;;
+  line-height: 30px;
+  ;
   border-radius: 0px !important;
 }
 
@@ -458,9 +465,11 @@ nav .content .links {
   justify-content: center;
   align-items: center;
 }
-.hero-btn-circle img{
+
+.hero-btn-circle img {
   width: 21px;
 }
+
 .dance-hero-v1 {
   width: 100%;
   height: 100%;
@@ -491,12 +500,7 @@ nav .content .links {
 
 .hero-txt-1 h3 {
   font-size: 70px;
-  /* font-family: "Poppins"; */
-  /* font-weight: 300; */
-  /* font-family: "Canela Deck Bold"; */
   font-family: "Requiem";
-  /* font-family: "Brandon Bold"; */
-  /* font-family: "Poppins"; */
 
 }
 
@@ -516,12 +520,21 @@ nav .content .links {
     height: 50px;
     width: 50px;
   }
+  .hero-txt-1 h3 {
+    font-size: 50px;
+    line-height:  57px;
+  }
+  .hero-txt-1 p {
+    font-size:18px;
+    line-height: 24px;
+  }
 }
 
 /* ============================= SCHOOLAR ============= */
-.sck{
-position: relative;
+.sck {
+  position: relative;
 }
+
 .schoolar {
   height: auto;
   width: 78%;
@@ -529,7 +542,8 @@ position: relative;
   margin: auto;
   position: relative;
 }
-.schoolar-line{
+
+.schoolar-line {
   position: absolute;
   height: 80px;
   width: 2px;
@@ -538,6 +552,7 @@ position: relative;
   border-radius: 100%;
   background-color: rgb(168, 168, 168);
 }
+
 .schoolar-container-img {
   width: 100%;
   height: 500px;
@@ -676,7 +691,7 @@ position: relative;
   object-fit: cover;
   position: absolute;
   transition: 0.5s;
-  
+
 }
 
 .dark-1:hover img {
@@ -724,9 +739,11 @@ position: relative;
   object-fit: cover;
   transition: 0.5s;
 }
-.darkky-1-img img:hover{
- transform: scale(1.09);
+
+.darkky-1-img img:hover {
+  transform: scale(1.09);
 }
+
 .darkky-2 {
   width: 100%;
   height: auto;
@@ -770,7 +787,8 @@ position: relative;
   justify-content: center;
   align-items: center;
 }
-.darkky-circle img{
+
+.darkky-circle img {
   width: 24px;
 }
 
@@ -818,9 +836,7 @@ position: relative;
 }
 
 .darkky-overlay-txt h1 {
-  /* font-family: "Canela Deck Bold"; */
   font-family: "Requiem";
-  /* font-family: "Poppins"; */
 }
 
 .darkky-overlay-txt p {
@@ -868,11 +884,31 @@ position: relative;
   }
 }
 
+@media screen and (max-width: 700px) {
+  .darkky-title {
+    font-size: 40px;
+  }
+  .darkky-title-container {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .darkky-2 h1 {
+    font-size: 30px;
+    padding-top: 4px;
+    line-height: 40px;
+  }
+  .darkky-overlay-txt h1 {
+    font-size: 27px;
+  }
+  
+}
+
 @media screen and (max-width: 800px) {
   .dark-container {
     flex-direction: column;
     padding: 20px 30px 160px 30px;
   }
+
   .dark-container .dark-1 {
     height: 500px;
     margin: 20px 0px;
@@ -903,9 +939,11 @@ position: relative;
   background-color: #f2f2f2;
   position: relative;
 }
-.shape-container{
+
+.shape-container {
   padding-bottom: 70px;
 }
+
 .shape-line1 {
   height: 300px;
   bottom: 0;
@@ -914,7 +952,8 @@ position: relative;
   position: absolute;
   left: 50%;
 }
-.shape-line2{
+
+.shape-line2 {
   height: 300px;
   top: 0;
   width: 2px;
@@ -922,13 +961,15 @@ position: relative;
   position: absolute;
   left: 50%;
 }
-.shape-bx-title{
+
+.shape-bx-title {
   height: 260px;
-  border: 1px solid  gray;
+  border: 1px solid gray;
 }
-.shape-bx1{
+
+.shape-bx1 {
   height: auto;
-  border: 1px solid  rgb(207, 203, 203);
+  border: 1px solid rgb(207, 203, 203);
   width: 100%;
   position: relative;
   z-index: 1;
@@ -937,27 +978,32 @@ position: relative;
   cursor: pointer;
 
 }
-.shape-bx1:hover{
+
+.shape-bx1:hover {
   /* background-color: rgb(108, 104, 104); */
   background-color: #222;
   color: white;
 }
-.shape-bx1:hover .shape-bx1-img img{
+
+.shape-bx1:hover .shape-bx1-img img {
   transform: scale(1.10);
 
 }
-.shape-bx-line-container{
+
+.shape-bx-line-container {
   display: flex;
   flex-direction: row;
   padding: 0px 50px;
 }
-.shape-bx1-img{
+
+.shape-bx1-img {
   /* border: 1px solid  green; */
   height: 390px;
   overflow: hidden;
   width: 100%;
 }
-.shape-bx1-img img{
+
+.shape-bx1-img img {
   width: 100%;
   height: 100%;
   transition: 0.5s;
@@ -965,7 +1011,8 @@ position: relative;
   z-index: 1;
   object-fit: cover;
 }
-.shape-bx1-c{
+
+.shape-bx1-c {
   height: auto;
   display: flex;
   align-items: center;
@@ -975,40 +1022,48 @@ position: relative;
   border-radius: 30px;
   /* border: 1px solid  grey; */
 }
-.shape-bx1-txt{
+
+.shape-bx1-txt {
   padding: 30px;
   /* font-family: "Poppins"; */
 }
-.shape-bx1-txt h1{
+
+.shape-bx1-txt h1 {
   font-family: "Requiem";
 }
-.shape-bx1-txt p{
+
+.shape-bx1-txt p {
   font-family: "Brandon";
   font-size: 19px;
 }
-.shape-bx1-circle{
+
+.shape-bx1-circle {
   height: 50px;
   width: 50px;
   /* border: 1px solid  grey; */
   background-color: #0e0e0e;
   border-radius: 100%;
 }
-.saha{
+
+.saha {
   padding-left: 12px;
   font-family: "Brandon";
   font-size: 18px;
 }
-@media screen and (max-width: 800px){
-  .shape-bx-line-container{
+
+@media screen and (max-width: 800px) {
+  .shape-bx-line-container {
     display: flex;
     flex-direction: column;
     padding: 0px 30px;
   }
-  .shape-bx1{
+
+  .shape-bx1 {
     height: 700px;
     margin: 20px 0px;
   }
 }
+
 /* =====================  Qoute ================= */
 .qoute {
   height: auto;
@@ -1083,7 +1138,8 @@ position: relative;
   color: white;
   position: relative;
 }
-.care-line{
+
+.care-line {
   height: 200px;
   width: 2px;
   position: absolute;
@@ -1092,6 +1148,7 @@ position: relative;
   border-radius: 30px;
   background-color: grey;
 }
+
 .care-container {
   display: flex;
   flex-direction: row;
@@ -1168,22 +1225,27 @@ position: relative;
   font-size: 18px;
   font-family: "Brandon";
 }
-.care-d-container h1{
+
+.care-d-container h1 {
   font-family: "Requiem";
   font-size: 40px;
 }
+
 .care-txt {
   padding: 10px 13px 30px 10px;
   background-color: #0e0e0e;
 }
-.care-txt h1{
+
+.care-txt h1 {
   font-family: "Requiem";
   font-size: 23px;
 }
-.care-txt p{
+
+.care-txt p {
   font-family: "Brandon";
   font-size: 17px;
 }
+
 .care-learn {
   display: flex;
   padding-bottom: 70px;
@@ -1236,7 +1298,7 @@ position: relative;
   padding: 60px 50px 150px 50px;
 }
 
-.stroll-1 { 
+.stroll-1 {
   height: 600px;
   position: relative;
   z-index: 1;
@@ -1252,9 +1314,11 @@ position: relative;
   object-fit: cover;
   position: absolute;
 }
-.stroll-1:hover img{
+
+.stroll-1:hover img {
   transform: scale(1.09);
 }
+
 .stroll-line {
   height: 100vh;
   position: absolute;
@@ -1322,16 +1386,18 @@ position: relative;
   font-family: "Brandon";
   padding-left: 10px;
 }
-.stroll-title{
+
+.stroll-title {
   padding: 40px 60px 0px 60px;
   font-family: "Requiem";
   font-weight: 800;
   font-size: 60px;
   /* font-weight: 600; */
 }
+
 @media screen and (max-width: 898px) {
   .stroll-container {
-    display: block  ;
+    display: block;
     flex-direction: column !important;
     padding: 10px 30px 150px 30px;
   }
@@ -1339,7 +1405,8 @@ position: relative;
   .stroll-1 {
     margin: 20px 0px;
   }
-  .stroll-title{
+
+  .stroll-title {
     padding: 40px 60px 0px 30px;
     font-size: 40px;
   }
@@ -1400,7 +1467,15 @@ position: relative;
   color: white;
   font-family: "Brandon";
   margin-top: 10px;
-  /* border: 1px solid #fff; */ 
+  /* border: 1px solid #fff; */
+}
+
+@media screen and (max-width: 756px) {
+
+  .I-container-one {
+    font-size: 49px;
+    line-height: 57px;
+  }
 }
 
 /* ================== ABOUT  TDS =========== */
@@ -1742,10 +1817,10 @@ position: relative;
 
 
 /* ================================ APPLY ========================== */
-.apply-hero{
+.apply-hero {
   height: auto;
   width: 100%;
-  border: 1px solid  red;
+  border: 1px solid red;
   padding-top: 69px;
   background: url(../images/Pete-Carril-Interview-Andrea-Joyce-UCLA-NCAA-1_3000x1688.jpg);
   background-position: center;
@@ -1753,11 +1828,12 @@ position: relative;
   background-size: cover;
   color: white;
 }
-.apply-container{
+
+.apply-container {
   height: 100vh;
-  background-color: rgba(3,45,79,.8);
+  background-color: rgba(3, 45, 79, .8);
   width: 100%;
-  border: 2px solid  green;
+  border: 2px solid green;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1768,22 +1844,23 @@ position: relative;
 }
 
 
-@media screen and (max-width: 600px){
-   .apply-container{
+@media screen and (max-width: 600px) {
+  .apply-container {
     font-size: 30px;
     padding: 30px;
-   }
+  }
 }
 
 
 
 /* ===================== START APPLICATION ============== */
-.start-apply{
+.start-apply {
   height: auto;
   width: 100%;
-  border: 1px solid  #000;
+  border: 1px solid #000;
 }
-.start-apply-container1{
+
+.start-apply-container1 {
   /* border: 1px solid red; */
   height: auto;
   display: flex;
@@ -1791,31 +1868,36 @@ position: relative;
   padding: 100px 60px;
   width: 100%;
 }
-.start-apply-title{
+
+.start-apply-title {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.start-apply-title-container{
-  max-width:600px;
+
+.start-apply-title-container {
+  max-width: 600px;
   /* border: 1px solid red; */
   margin-top: 80px;
   text-align: center;
 }
-.start-apply-title p{
+
+.start-apply-title p {
   font-size: 22px;
   font-family: "Brandon";
   padding-top: 16px;
   font-weight: 400;
 }
-.start-apply-title h1{
+
+.start-apply-title h1 {
   /* font-family: "Canela Deck Bold"; */
   font-family: "Requiem";
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   font-size: 30px;
 }
-.start-apply-1{
+
+.start-apply-1 {
   height: auto;
   /* width: 100%; */
   /* border: 1px solid  red; */
@@ -1827,6 +1909,7 @@ position: relative;
   max-width: 40em;
   margin: 10px auto;
 }
+
 .ac-label {
   font-weight: 700;
   font-family: "Brandon";
@@ -1842,10 +1925,14 @@ position: relative;
   border-top: 1px solid #d6d6d6;
   transition: background-color 0.15s ease-in-out;
 }
-.ac-input:checked + label, .ac-label:hover {
+
+.ac-input:checked+label,
+.ac-label:hover {
   /* background-color: #999; */
 }
-.ac-label:after, .ac-input:checked + .ac-label:after {
+
+.ac-label:after,
+.ac-input:checked+.ac-label:after {
   content: "+";
   position: absolute;
   display: block;
@@ -1858,97 +1945,121 @@ position: relative;
   /* background-color: #e5e5e5; */
   transition: background-color 0.15s ease-in-out;
 }
-.ac-label:hover:after, .ac-input:checked + .ac-label:after {
+
+.ac-label:hover:after,
+.ac-input:checked+.ac-label:after {
   /* background-color: #b5b5b5; */
 }
-.ac-input:checked + .ac-label:after {
+
+.ac-input:checked+.ac-label:after {
   content: "-";
 }
+
 .ac-input {
   display: none;
 }
-.ac-text, .ac-sub-text {
+
+.ac-text,
+.ac-sub-text {
   opacity: 0;
   height: 0;
   margin-bottom: 0.5em;
   transition: opacity 0.5s ease-in-out;
   overflow: hidden;
 }
-.ac-input:checked ~ .ac-text, .ac-sub .ac-input:checked ~ .ac-sub-text {
+
+.ac-input:checked~.ac-text,
+.ac-sub .ac-input:checked~.ac-sub-text {
   opacity: 1;
   height: auto;
 }
+
 .ac-sub .ac-label {
   background: none;
   font-weight: 600;
   padding: 0.5em 2em;
   margin-bottom: 0;
 }
+
 .ac-sub .ac-label:checked {
   background: none;
   border-bottom: 1px solid whitesmoke;
 }
-.ac-sub .ac-label:after, .ac-sub .ac-input:checked + .ac-label:after {
+
+.ac-sub .ac-label:after,
+.ac-sub .ac-input:checked+.ac-label:after {
   left: 0;
   background: none;
 }
-.ac-sub .ac-input:checked + label, .ac-sub .ac-label:hover {
+
+.ac-sub .ac-input:checked+label,
+.ac-sub .ac-label:hover {
   background: none;
 }
+
 .ac-sub-text {
   padding: 0 1em 0 2em;
 }
 
-.ac-text p{
+.ac-text p {
   font-family: "Brandon";
   font-size: 18px;
 }
-.ac-text{
-  padding:10px 20px;
+
+.ac-text {
+  padding: 10px 20px;
 }
-.start-ap{
+
+.start-ap {
   padding: 0px 80px;
   max-width: 630px;
 }
-.start-ap-container{
+
+.start-ap-container {
   width: 100%;
-  border: 1px solid  gray;
+  border: 1px solid gray;
   height: auto;
   padding: 10px 40px;
   font-family: "Brandon";
 
 }
-.start-ap-container h1{
+
+.start-ap-container h1 {
   text-align: center;
   font-family: "Requiem";
   font-size: 23px;
   padding-top: 30px;
 }
-.start-ap-container li{
+
+.start-ap-container li {
   font-size: 17px;
   font-weight: 500;
 }
-  
-.start-ap-container h4{
+
+.start-ap-container h4 {
   font-family: "Brandon Bold";
   font-size: 15px;
   padding-bottom: 10px;
   font-weight: 900;
 }
- .start-ap-container > div{
+
+.start-ap-container>div {
   margin-top: 30px;
- }
-.start-ap-container p{
+}
+
+.start-ap-container p {
   font-family: "Brandon";
   font-size: 16px;
   padding-top: 30px;
 }
-.start-apply-btn1{
+
+.start-apply-btn1 {
   display: flex;
   justify-content: center;
   padding: 30px 0px;
 }
-.start-apply-btn1-container{
+
+.start-apply-btn1-container {
   text-transform: uppercase;
   font-size: 14px;
   color: #fff;
@@ -1960,58 +2071,66 @@ position: relative;
 }
 
 
-@media screen and (max-width: 800px){
-  .start-apply-container1{
+@media screen and (max-width: 800px) {
+  .start-apply-container1 {
     flex-direction: column;
-  padding: 60px 30px;
+    padding: 60px 30px;
   }
-  .start-ap{
+
+  .start-ap {
     padding: 0px 0px;
     max-width: 100%;
   }
-  .start-ap-container{
+
+  .start-ap-container {
     width: 100%;
-    border: 1px solid  gray;
+    border: 1px solid gray;
     padding: 10px 0px;
   }
-  .start-apply-title-container{
+
+  .start-apply-title-container {
     padding: 0px 30px;
   }
 }
 
 /* ======================APPLICATION ELIGIBLE ============== */
-.eligible{
+.eligible {
   height: 400px;
   width: 100%;
-  border: 1px solid  red;
+  border: 1px solid red;
 }
-.eligible-container{
+
+.eligible-container {
   max-width: 580px;
-  border: 1px solid  gray;
+  border: 1px solid gray;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.eligible{
+
+.eligible {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.eligible-container h1{
+
+.eligible-container h1 {
   font-family: "Requiem";
   font-size: 30px;
   font-weight: 600;
   color: #000;
   text-transform: uppercase;
 }
-.eligible-container p{
+
+.eligible-container p {
   font-family: "Brandon";
   font-size: 20px;
   padding-top: 20px;
 }
-.eligible-btn{
+
+.eligible-btn {
   display: inline-block;
   padding: 12px 30px;
   background-color: #B8A252;
@@ -2029,17 +2148,26 @@ position: relative;
 /* ======================= BOX MODEL =========== */
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -2066,10 +2194,12 @@ position: relative;
   text-decoration: none;
   cursor: pointer;
 }
-.modal-content form{
+
+.modal-content form {
   text-align: left;
 }
-.modal-content form h1{
+
+.modal-content form h1 {
   font-family: "Requiem";
   /* font-family: "Brandon Bold"; */
   font-size: 20px;
@@ -2078,21 +2208,24 @@ position: relative;
 }
 
 /* ============= Styling the form ===== */
-.flex-col{
+.flex-col {
   display: flex;
 }
-.flex-col > div{
+
+.flex-col>div {
   width: 100%;
   margin: 0px 10px;
   /* border: 1px solid  black; */
 }
-.flex-col p{
+
+.flex-col p {
   font-family: "Brandon";
   font-weight: 600;
   font-size: 17px;
   padding-bottom: 10px;
 }
-.flex-col > div input{
+
+.flex-col>div input {
   width: 100%;
   /* border-radius: 10px; */
   border: 1px solid #888;
@@ -2103,19 +2236,22 @@ position: relative;
   font-weight: 600;
   height: 40px;
 }
-.flex-col-1{
-  padding:0px 10px;
+
+.flex-col-1 {
+  padding: 0px 10px;
   font-family: "Brandon";
   font-size: 18px;
   font-weight: 600;
 }
-.flex-col-1 p{
+
+.flex-col-1 p {
   font-family: "Brandon";
   font-weight: 600;
   font-size: 17px;
   padding-bottom: 10px;
 }
-.flex-col-1 input{
+
+.flex-col-1 input {
   width: 100%;
   border: 1px solid #888;
   outline: none;
@@ -2188,13 +2324,15 @@ footer {
 .subscribe-1 {
   max-width: 430px;
   height: auto;
-  
+
 }
-.subscribe-1 h4{
+
+.subscribe-1 h4 {
   font-family: "Requiem";
   font-size: 20px;
 }
-.subscribe-1 p{
+
+.subscribe-1 p {
   font-family: "Brandon";
   font-size: 18px;
 }
@@ -2262,16 +2400,19 @@ footer {
   max-width: 350px;
   height: auto;
 }
-.foot-1 h1{
+
+.foot-1 h1 {
   font-family: "Requiem";
   font-weight: 600;
 }
+
 .foot-1 p {
   font-size: 18px;
   padding-top: 6px;
   font-family: "Brandon";
 }
-.foot-links h4{
+
+.foot-links h4 {
   font-family: "Brandon";
   font-size: 21px;
 }
@@ -2298,7 +2439,8 @@ footer {
   font-weight: 600;
   font-family: "Brandon";
 }
-.foot-1 h3{
+
+.foot-1 h3 {
   font-family: "Requiem";
 }
 
