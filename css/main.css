@@ -1624,7 +1624,7 @@ nav .content .links {
   border: 1px solid #000;
   display: flex;
   align-items: center;
-  border-radius: 30px;
+  border-radius: 50px;
 }
 
 .ab1-circle {
@@ -1760,7 +1760,7 @@ nav .content .links {
 .meet-btn-container {
   display: flex;
   align-items: center;
-  font-family: "Brandon Bl";
+  font-family: "Brandon Bold";
   font-size: 19px;
   margin-top: 20px;
 }
@@ -1770,8 +1770,6 @@ nav .content .links {
 }
 
 .meet-container h1 {
-  /* font-family: "Canela Deck Bold"; */
-  /* font-family: "Poppins"; */
   font-family: "Requiem";
   font-size: 50px;
 }
@@ -1819,6 +1817,10 @@ nav .content .links {
   .meet-container>div {
     padding: 20px 20px 20px 20px;
   }
+  .meet-container h1 {
+    font-size: 40px;
+  }
+  
 }
 /* ======================== Academic */
 .academic {
