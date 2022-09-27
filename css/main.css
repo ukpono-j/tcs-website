@@ -620,7 +620,7 @@ nav .content .links {
 
 .schoolar-txt1 {
   max-width: 350px;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
 
 .schoolar-container-img img {
@@ -636,7 +636,7 @@ nav .content .links {
   font-family: "Brandon";
   max-width: 600px;
   padding: 6px;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
 
 .schoolar-txt1 {
@@ -683,7 +683,7 @@ nav .content .links {
   .schoolar {
     width: 100%;
     padding: 10px 20px;
-    top: -60px;
+    top: -90px;
 
   }
 
@@ -990,6 +990,11 @@ nav .content .links {
   }
 }
 
+@media screen and (max-width: 600px){
+  .darkky-2 {
+    padding: 0px 20px 30px 20px;
+  }
+}
 /* =================== SHAPE ================== */
 .shape {
   height: auto;
@@ -1084,7 +1089,6 @@ nav .content .links {
 
 .shape-bx1-txt {
   padding: 30px;
-  /* font-family: "Poppins"; */
 }
 
 .shape-bx1-txt h1 {
@@ -1121,6 +1125,16 @@ nav .content .links {
     height: 700px;
     margin: 20px 0px;
   }
+}
+
+@media screen and (max-width: 600px){
+  .shape-bx1{
+    height: auto;
+  }
+  .shape-bx1-txt {
+    padding: 20px;
+  }
+  
 }
 
 /* =====================  Qoute ================= */
