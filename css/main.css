@@ -401,9 +401,64 @@ nav .content .links {
   padding-top: 70px;
   /* top: 80px; */
   /* border: 1px solid  #000; */
-
 }
-
+.hero-button{
+  position: relative;
+  height:50px;
+  width: 280px;
+  /* background-color: #3f3f3f; */
+  /* background-color: #171c24; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  border-radius: 40px;
+  padding-left: 45px;
+  transition: 0.4s ;
+  overflow: hidden;
+  font-size: 18px;
+  font-family: "Brandon Bold";
+  border: 1px solid #fff;
+  text-decoration: none  ;
+}
+.hero-button:hover{
+  padding-left: 0;
+  padding-right: 45px;
+  border: 1px solid  #fff;
+  color: #fff;
+}
+.hero-button span{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: #000;
+  /* background-color: #80298f; */
+  border-radius: 100%;
+  left: 0px;
+  transition: 0.4s ease-in-out;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
+.hero-button:hover span{
+  left: 220px;
+  background-color: #fff;
+  color: #000;
+}
+.hero-button::after{
+  content: " ";
+  position: absolute;
+  width: 80px;
+  height: 100%;
+  z-index: 1;
+  background-color: #b6b6b6be;
+  transform: translateX(-220px) skew(30deg);
+  transition: 0.7s ease-in-out;
+}
+.hero-button:hover::after{
+  transform: translateX(200px) skew(30deg);
+}
 .hero-container {
   height: 100vh;
   width: 100%;
@@ -434,8 +489,8 @@ nav .content .links {
 .hero-btn-container {
   /* max-width: 300px; */
   border-radius: 30px;
-  padding-right: 10px;
-  border: 1px solid #fff;
+  /* padding-right: 10px; */
+  /* border: 1px solid #fff; */
   height: auto;
   margin-top: 20px;
   display: flex;
