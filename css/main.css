@@ -433,6 +433,7 @@ nav .content .links {
   width: 50px;
   /* background-color: #000; */
   background-color: #5a65ff;
+  /* background-color: rgb(3, 45, 79); */
   border-radius: 100%;
   left: 0px;
   transition: 0.4s ease-in-out;
@@ -681,7 +682,7 @@ nav .content .links {
 
   .schoolar {
     width: 100%;
-    padding: 10px 30px;
+    padding: 10px 20px;
     top: -60px;
 
   }
@@ -964,7 +965,7 @@ nav .content .links {
 @media screen and (max-width: 800px) {
   .dark-container {
     flex-direction: column;
-    padding: 20px 30px 160px 30px;
+    padding: 20px 20px 160px 20px;
   }
 
   .dark-container .dark-1 {
@@ -977,7 +978,7 @@ nav .content .links {
   }
 
   .darkky-1 {
-    padding: 0px 30px 30px 30px;
+    padding: 0px 20px 30px 20px;
   }
 
   .dark-container {
@@ -1113,7 +1114,7 @@ nav .content .links {
   .shape-bx-line-container {
     display: flex;
     flex-direction: column;
-    padding: 0px 30px;
+    padding: 0px 20px;
   }
 
   .shape-bx1 {
@@ -1175,7 +1176,7 @@ nav .content .links {
 
 @media screen and (max-width: 936px) {
   .qoute-container {
-    padding: 40px 30px;
+    padding: 40px 20px;
   }
 
 }
@@ -1329,7 +1330,7 @@ nav .content .links {
   }
 
   .care-container {
-    padding: 30px;
+    padding: 20px;
     flex-direction: column;
   }
 
@@ -1457,7 +1458,7 @@ nav .content .links {
   .stroll-container {
     display: block;
     flex-direction: column !important;
-    padding: 10px 30px 150px 30px;
+    padding: 10px 20px 150px 20px;
   }
 
   .stroll-1 {
@@ -2521,7 +2522,7 @@ footer {
 
   .footer-overlay {
     /* background-color: #41246df0; */
-    padding: 100px 30px 0px 30px;
+    padding: 100px 20px 0px 20px;
   }
 
   .subscribe p {
