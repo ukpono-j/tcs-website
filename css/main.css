@@ -431,8 +431,8 @@ nav .content .links {
   position: absolute;
   height: 50px;
   width: 50px;
-  background-color: #000;
-  /* background-color: #80298f; */
+  /* background-color: #000; */
+  background-color: #5a65ff;
   border-radius: 100%;
   left: 0px;
   transition: 0.4s ease-in-out;
