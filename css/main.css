@@ -1546,6 +1546,12 @@ nav .content .links {
     max-width: 100%;
     padding: 180px 20px 100px 20px;
   }
+  .I-container-two {
+    max-width: 900px;
+    /* padding:10px 0px 30px; */
+    /* float: right; */
+    font-size: 19px;
+  }
 }
 /* ================== ABOUT  TDS =========== */
 
