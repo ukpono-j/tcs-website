@@ -1537,6 +1537,16 @@ nav .content .links {
   }
 }
 
+@media screen and (max-width: 550px){
+  .I-container-one {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .l-container {
+    max-width: 1440px;
+    padding: 180px 20px 100px 20px;
+  }
+}
 /* ================== ABOUT  TDS =========== */
 
 .about-tds {
