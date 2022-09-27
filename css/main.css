@@ -1539,11 +1539,11 @@ nav .content .links {
 
 @media screen and (max-width: 550px){
   .I-container-one {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 36px;
+    line-height: 46px;
   }
   .l-container {
-    max-width: 1440px;
+    max-width: 100%;
     padding: 180px 20px 100px 20px;
   }
 }
