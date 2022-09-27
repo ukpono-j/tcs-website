@@ -1648,7 +1648,11 @@ nav .content .links {
   }
 }
 @media screen and (max-width: 600px){
-  
+  .ab1-container {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
 .ab1 h1 {
   font-size: 33px;
   padding-top: 10px;
