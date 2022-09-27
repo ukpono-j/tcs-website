@@ -1588,7 +1588,7 @@ nav .content .links {
   font-size: 60px;
   font-weight: 700;
   line-height: 60px;
-  font-weight: 400;
+  /* font-weight: 400; */
   color: #1e1e1e;
 }
 
@@ -1646,6 +1646,15 @@ nav .content .links {
     flex-direction: column;
     padding: 10px 30px;
   }
+}
+@media screen and (max-width: 600px){
+  
+.ab1 h1 {
+  font-size: 33px;
+  padding-top: 10px;
+  line-height: 40px;
+  color: #1e1e1e;
+}
 }
 
 
